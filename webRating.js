@@ -7,11 +7,11 @@
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl-2.0.html
  *
- * jQuery("div").starRating();
+ * jQuery("div").webRating();
  */
 ;(function($, window, document, undefined)
 {
-    $.fn.starRating = function(settings)
+    $.fn.webRating = function(settings)
     {
         /**
          * settings and configuration data
@@ -24,14 +24,14 @@
 
             // image & color
 			starCount       : 5,
-			imgSrc		  : null,
+			imgSrc		    : null,
 			xLocation       : 0,  			 //in px
 			yLocation       : 0,  			 //in px
-			width		   : 30, 			//in px
-			height		  : 30, 			//in px
+			width		    : 30, 			//in px
+			height		    : 30, 			//in px
 			
 			//CSS
-			onClass		 : 'starOn',
+			onClass		    : 'starOn',
 			offClass		: 'starOff',
 			onClassHover    : null,
 			offClassHover   : null,
@@ -40,7 +40,7 @@
 			//cookie
 			cookieEnable    : true,
 			cookieLifeDays  : 1,
-			cookiePrefix    : "starRating_",
+			cookiePrefix    : "webRating_",
 			
 			//Tooltip
 			tp_showAverage  : true,
@@ -48,14 +48,14 @@
 			tp_eachStar     : null,
 			
 			//Maths
-			updateScore	 : true,
+			updateScore	    : true,
 		
 			//click
 			maxClick        : 1,
-			starClick	   : null,
+			starClick	    : null,
 			
 			// attribute
-            attribute       : "data-starRatingArg",
+            attribute       : "data-webRatingArg",
 			score           : "data-ratingStar", //Current rating
 			count           : "data-countStar", //Current count
         };
@@ -444,6 +444,6 @@
     };
 
     // make lazy a bit more case-insensitive :)
-    $.fn.StarRating = $.fn.starRating;
+    $.fn.WebRating = $.fn.webRating;
 
 })(jQuery, window, document);
