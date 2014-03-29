@@ -24,15 +24,15 @@
 
             // image & color
 			starCount       : 5,
-			imgSrc		    : null,
+			imgSrc		: null,
 			xLocation       : 0,  			 //in px
 			yLocation       : 0,  			 //in px
-			width		    : 30, 			//in px
-			height		    : 30, 			//in px
+			width		: 30, 			//in px
+			height		: 30, 			//in px
 			
 			//CSS
-			onClass		    : 'starOn',
-			offClass		: 'starOff',
+			onClass		: 'starOn',
+			offClass	: 'starOff',
 			onClassHover    : null,
 			offClassHover   : null,
 			autoParentWidth : true,
@@ -48,14 +48,14 @@
 			tp_eachStar     : null,
 			
 			//Maths
-			updateScore	    : true,
+			updateScore	: true,
 		
 			//click
 			maxClick        : 1,
-			starClick	    : null,
+			starClick	: null,
 			
 			// attribute
-            attribute       : "data-webRatingArg",
+              		attribute       : "data-webRatingArg",
 			score           : "data-ratingStar", //Current rating
 			count           : "data-countStar", //Current count
         };
