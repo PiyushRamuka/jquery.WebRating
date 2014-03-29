@@ -1,14 +1,14 @@
 {
-    "name": "Ratings",
-    "title": "jQuery Ratings",
+    "name": "WebRatings",
+    "title": "jQuery Web Ratings",
     "description": "jQuery plugin for creating adding (multiple) ratings to any page.",
     "keywords": [
+        "ratings",
         "star rating",
         "rating",
         "reviews",
         "custom rating",
-        "CSS rating",
-        "rating plugIn"
+        "CSS rating"
     ],
     "version": "1.0.1",
     "author": {
