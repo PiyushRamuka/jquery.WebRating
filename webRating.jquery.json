@@ -1,0 +1,38 @@
+{
+    "name": "Ratings",
+    "title": "jQuery Ratings",
+    "description": "jQuery plugin for creating adding (multiple) ratings to any page.",
+    "keywords": [
+        "star rating",
+        "rating",
+        "reviews",
+        "custom rating",
+        "CSS rating",
+        "rating plugIn"
+    ],
+    "version": "1.0.1",
+    "author": {
+        "name": "Piyush Ramuka",
+        "url": "https://github.com/PiyushRamuka/WebRating"
+    },
+    "maintainers": [
+        {
+            "name": "Piyush Ramuka",
+            "email": "piyushramuka@gmail.com",
+            "url": ""
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/jquery/jquery-color/issues",
+    "homepage": "https://github.com/PiyushRamuka/WebRating",
+    "docs": "https://github.com/PiyushRamuka/WebRating",
+    "download": "https://github.com/PiyushRamuka/WebRating",
+    "dependencies": {
+        "jquery": ">=9.1"
+    }
+}
