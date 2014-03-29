@@ -10,7 +10,7 @@
         "custom rating",
         "CSS rating"
     ],
-    "version": "1.0.1",
+    "version": "v1.0.01",
     "author": {
         "name": "Piyush Ramuka",
         "url": "https://github.com/PiyushRamuka/WebRating"
@@ -24,9 +24,13 @@
     ],
     "licenses": [
         {
-            "type": "MIT",
-            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
-        }
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		},
+		{
+			"type": "GPL v2",
+			"url": "http://www.gnu.org/licenses/gpl-2.0.html"
+		}
     ],
     "bugs": "https://github.com/jquery/jquery-color/issues",
     "homepage": "https://github.com/PiyushRamuka/WebRating",
