@@ -4,21 +4,21 @@ JQuery WebRatings
 ##Demo Link
 
 ###Features
--Easy to configure
--Precision upto **0.01**
--Use stars, hearts, smiles or your logo
--Integrate with your own database
--CSS based coloring
--Customized toop-tip option
--Callback functions on click & hover
--Limit number of clicks per page view
--Use cookies to limit clicks per visitor
+- **Easy** to configure
+- Precision upto **0.01**
+- Use **stars, hearts, smiles** or your logo
+- Integrate with your **own database**
+- **CSS** based coloring
+- Customized **toop-tip option**
+- **Callback** functions on click & hover
+- Limit **number of clicks** per page view
+- Use **cookies** to limit clicks per visitor
 
 ###Download
-1. [Big Star](www.google.com)
-2. [Small Star](www.google.com)
-3. [Heart](www.google.com)
-4. [Smile](www.google.com)
+1. [Big Star](www.google.com) Coming Soon!
+2. [Small Star](www.google.com) Coming Soon!
+3. [Heart](www.google.com) Coming Soon!
+4. [Smile](www.google.com) Coming Soon!
 
 ###How to use WebRatings
 ####Step 1
