@@ -1,42 +1,42 @@
 {
-    "name": "WebRatings",
-    "title": "jQuery Web Ratings",
-    "description": "jQuery plugin for creating adding (multiple) ratings to any page.",
-    "keywords": [
-        "ratings",
-        "star rating",
-        "rating",
-        "reviews",
-        "custom rating",
-        "CSS rating"
-    ],
-    "version": "v1.0.01",
+    "name": "WebRating",
+    "version": "v1.0.02",
+    "title": "jQuery WebRating",
     "author": {
         "name": "Piyush Ramuka",
         "url": "https://github.com/PiyushRamuka/WebRating"
     },
-    "maintainers": [
-        {
-            "name": "Piyush Ramuka",
-            "email": "piyushramuka@gmail.com",
-            "url": ""
-        }
-    ],
     "licenses": [
         {
-			"type": "MIT",
-			"url": "http://www.opensource.org/licenses/mit-license.php"
-		},
-		{
-			"type": "GPL v2",
-			"url": "http://www.gnu.org/licenses/gpl-2.0.html"
-		}
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        },
+        {
+            "type": "GPL v2",
+            "url": "http://www.gnu.org/licenses/gpl-2.0.html"
+        }
     ],
-    "bugs": "https://github.com/jquery/jquery-color/issues",
-    "homepage": "https://github.com/PiyushRamuka/WebRating",
-    "docs": "https://github.com/PiyushRamuka/WebRating",
-    "download": "https://github.com/PiyushRamuka/WebRating",
     "dependencies": {
-        "jquery": ">=9.1"
-    }
+        "jquery": ">=1.3.0"
+    },
+    "description": "JQuery plugin for displaying (multiple) rating on web pages.",
+    "keywords": [
+        "rating",
+        "star",
+        "heart",
+        "reviews",
+        "rating plugin",
+        "CSS rating",
+        "jquery rating"
+    ],
+    "homepage": "https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html",
+    "demo": "https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html",
+    "bugs": "https://github.com/PiyushRamuka/jquery-WebRating/issues",
+    "docs": "https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html",
+    "download": "https://github.com/PiyushRamuka/jquery-WebRating",
+    "files":
+            [
+                "jquery.webRating.js",
+                "jquery.webRating.min.js"
+            ]
 }
