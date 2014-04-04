@@ -30,9 +30,9 @@
     ],
     "homepage": "https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html",
     "demo": "https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html",
-    "bugs": "https://github.com/PiyushRamuka/jquery-WebRating/issues",
+    "bugs": "https://github.com/PiyushRamuka/jquery.WebRating/issues",
     "docs": "https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html",
-    "download": "https://github.com/PiyushRamuka/jquery-WebRating",
+    "download": "https://github.com/PiyushRamuka/jquery.WebRating",
     "files":
             [
                 "jquery.webRating.js",
