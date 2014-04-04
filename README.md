@@ -1,7 +1,11 @@
-JQuery WebRatings
+[JQuery WebRating](https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html)
 ======
 
-##Demo Link
+##Demo
+1. [Big Star](https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html)
+2. [Small Star](https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html)
+3. [Heart](https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html)
+4. [Smile](https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html)
 
 ###Features
 - **Easy** to configure
@@ -14,21 +18,15 @@ JQuery WebRatings
 - Limit **number of clicks** per page view
 - Use **cookies** to limit clicks per visitor
 
-###Download
-1. [Big Star](www.google.com) Coming Soon!
-2. [Small Star](www.google.com) Coming Soon!
-3. [Heart](www.google.com) Coming Soon!
-4. [Smile](www.google.com) Coming Soon!
-
-###How to use WebRatings
+###How to use WebRating
 ####Step 1
 Start with creating static or dyanmic div elements. Add "data-webRating" attribute to those divs which will include the ratings.
 ```HTML
-  <div data-webRating="2.5" data-webRatingN="5" data-webRatingArg='{"type":"book","uid":12}'>
+  <div class="divClass" data-webRating="2.5" data-webRatingN="5" data-webRatingArg='{"type":"book","uid":12}'></div>
 ```
 
 ####Step 2
-Include WebRatings plugin to your page.
+Include WebRating plugin to your page.
 ```Javascript
 <script type="text/javascript" src="js/jquery.webRating.js"></script>
 <!-- or -->
@@ -38,36 +36,36 @@ Include WebRatings plugin to your page.
 ####Step 3
 WebRating will automatically detect relevant div elements checking for "data-webRating" argument. Just initialize the plugin with desired settings to display ratings for products, blogs, services.
 ```Javascript
-jQuery("div").webRating({		
-    // count
-    starCount       : 5,
-    
-    // image & color
-    imgSrc		    : "generalIcons.png",
-    xLocation     : 53, //in px
-    yLocation     : 49, //in px
-    width		      : 15, //in px
-    height		    : 15, //in px
-    
-    //CSS
-    onClass		    :'starOn',
-    offClass	    : 'starOff',
-    onClassHover  : 'starOnHover',
-    offClassHover : 'starOffHover',
-            
-    //on click funcitons
-    cookieEnable  : false,
-    cookiePrefix  : "starRating_",
-    maxClick      : 1,
-    onClick	      : function(clickScore, data){
-        console.log(clickScore + "->" + data);
-    },
-    
-    //Tooltip
-    tp_showAverage  : true,
-    prefixAverage   : "Avg",
-    tp_eachStar     : {'1':'Very Bad','2':'Bad','3':'Ok','4':'Good','5':'Very Good'},
-});	
+jQuery("div").webRating({     
+        // count
+        ratingCount     : 5,
+
+        // image & color
+        imgSrc          : "generalIcons.png",
+        xLocation     	: 53, //in px
+        yLocation	      : 49, //in px
+        width		        : 15, //in px
+        height          : 15, //in px
+
+        //CSS
+        onClass         : 'onClass',
+        offClass        : 'offClass',
+        onClassHover  	: 'onClassHover', //Optional
+        offClassHover 	: 'offClassHover' //Optional
+
+        //on click funcitons
+        cookieEnable		: false,
+        cookiePrefix		: "myRating_",
+        maxClick				: 1,
+        onClick					: function(clickScore, data){
+            //Your function & post action
+        },
+
+        //Tooltip
+        tp_showAverage  : true,
+        prefixAverage   : "Avg",
+        tp_eachStar     : {'1':'Very Bad','2':'Bad','3':'Ok','4':'Good','5':'Very Good'} //Rating guide
+}); 
 ```
 
 ###Parameters
