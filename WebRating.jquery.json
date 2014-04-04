@@ -1,7 +1,7 @@
 {
     "name": "WebRating",
-    "version": "v1.0.02",
-    "title": "jQuery WebRating",
+    "version": "1.0.02",
+    "title": "jQuery Web Rating",
     "author": {
         "name": "Piyush Ramuka",
         "url": "https://github.com/PiyushRamuka/WebRating"
@@ -25,9 +25,8 @@
         "star",
         "heart",
         "reviews",
-        "rating plugin",
-        "CSS rating",
-        "jquery rating"
+        "webrating",
+        "review"
     ],
     "homepage": "https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html",
     "demo": "https://googledrive.com/host/0B8w_x363egOiZEVrS2FMVGU4MUk/index.html",
