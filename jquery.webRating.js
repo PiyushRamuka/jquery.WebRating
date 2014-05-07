@@ -254,7 +254,7 @@
                         //Update score if enabled
                         var score = +$bgDiv.data("score");
                         var count = +$bgDiv.data("count");
-                        if (configuration.updateScore && count) {
+                        if (configuration.updateScore && (count >= 0)) {
                             score = ((score * count) + clickScore) / (count + 1), 2;
                             count++;
                             $bgDiv.data("score", score);
