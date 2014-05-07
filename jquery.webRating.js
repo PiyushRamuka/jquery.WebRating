@@ -1,5 +1,5 @@
 /*!
- * jQuery WebRating - v1.0.00
+ * jQuery WebRating - v1.0.03
  *
  * Copyright 2014, Piyush Ramuka
  *
