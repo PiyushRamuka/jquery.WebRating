@@ -51,7 +51,7 @@ jQuery("div").webRating({
         onClass         : 'onClass',
         offClass        : 'offClass',
         onClassHover  	: 'onClassHover', //Optional
-        offClassHover 	: 'offClassHover' //Optional
+        offClassHover 	: 'offClassHover', //Optional
 
         //on click funcitons
         cookieEnable		: false,
